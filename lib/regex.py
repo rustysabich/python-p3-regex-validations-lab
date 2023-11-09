@@ -10,5 +10,5 @@ name_regex = re.compile(name)
 phone_number = r"^\(?\d{3}\)?[-\s]?\d{3}[-\s]?\d{4}$"
 phone_regex = re.compile(phone_number)
 
-email_address = r""
+email_address = r"^[A-z][\w\.]+@[\w]+\.[\w]+$"
 email_regex = re.compile(email_address)
